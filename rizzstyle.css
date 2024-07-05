@@ -1,0 +1,115 @@
+body {
+    background-image: url("https://i.gifer.com/3jni.gif");
+    background-color: pink;
+}
+
+#container {
+    align-items: center;
+    margin-top: 20%;
+    margin-left: 22%;
+    margin-right: 10%;
+    margin-bottom: 20%;
+    padding-bottom: 5%;
+    border: 4px solid;
+    background-color: rgb(243, 201, 208);
+}
+
+#gif {
+    margin-right: 30%;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height: 200px;
+}
+
+#title {
+    margin-left: 41%;
+    font-size: large;
+}
+
+#answer {
+    display: none;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: large;
+}
+
+.pRizz {
+    display: none;
+}
+
+
+#list1 {
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 10%; 
+    clear: both;
+}
+
+.btn {
+    border-radius: 10%;
+}
+
+.btn:hover {
+    background-color: lightpink;
+}
+
+.mp3 {
+    display: none;
+}
+
+.mp32 {
+    display: none;
+}
+
+#btn-container {
+    display: flex;
+}
+
+#switch {
+    margin-left: 90%;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 3%;
+    margin-right: 20px;
+}
+
+#list2 {
+    margin-right: 10%;
+    display: none;
+    grid-template-columns: repeat(4, 150px);
+    gap: 10%; 
+}
+
+#backswitch {
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#list3 {
+    margin-right: 10%;
+    display: none;
+    grid-template-columns: repeat(3, 150px);
+    gap: 30%; 
+}
+
+#list3 button {
+    font-size: larger;
+}
+
+#containerbelow {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: none;
+}
