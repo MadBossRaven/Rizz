@@ -157,7 +157,7 @@ function switchtoData2() {  // function for button that switch  to data2
       backSwitch.style.display = "block";
       link.style.display = "none";
     } else {
-        title.textContent = "3 Reasson u should date me";
+        title.textContent = "3 Reason u should date me";
         list1.style.display = "none";
         list2.style.display = "none";
         list3.style.display = "grid";
