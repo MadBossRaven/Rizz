@@ -116,6 +116,7 @@ a {
         padding: 10%;
         padding-bottom: 20%;
         display: flow-root;
+        overflow: scroll;
     }
     
     #gif {
