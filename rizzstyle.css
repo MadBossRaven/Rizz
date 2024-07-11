@@ -151,6 +151,7 @@ a {
     #container {
         margin: 5%;
         padding: 5%;
+        overflow: scroll;
     }
     
     #gif {
